@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css/">
+    <title>Jardim Zen</title>
+
+    <style>
+        body {
+            background-color: #c7fac9;
+        }
+
+
+
+        .container {
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+
+        }
+
+        .footer {
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+
+        .h3 {
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="imgs/logo.png" width="100" height="100">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Página inicial</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Categorias
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Plantas decorativas</a></li>
+                            <li><a class="dropdown-item" href="#">Adubos</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Vasos</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Procurar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Carrinho</li>
+                </ol>
+            </nav>
+            <br>
+        </div>
+    </div>
+
+    <div class="container bg-light">
+        <div class="row">
+            <div class="col-sm-3">
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Plantas artificiais
+                        <span class="badge bg-primary rounded-pill">14</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Plantas medicinais
+                        <span class="badge bg-primary rounded-pill">2</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Adubos
+                        <span class="badge bg-primary rounded-pill">1</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-6">
+
+                <!--PRODUTOS CARDS-->
+
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="imgs/p1.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Fertilizante Mineral Misto Forth Jabuticabeiras 3kg</h5>
+                                <p class="card-text"><b>R$ 79,03</b></p>
+                                <a href="produtos/Adubo.html" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="imgs/p2.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Jardineira Média Preta 14cm x 37cm</h5>
+                                <p class="card-text"><b>R$ 12,25</b></p>
+                                <a href="produtos/Adubo.html" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="imgs/p3.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Vaso Autoirrigável Médio Preto Linha Gourmet </h5>
+                                <p class="card-text"><b>R$ 25,99</b></p>
+                                <a href="produtos/Adubo.html" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="imgs/p4.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Vaso autoirrigável Raiz GRANDE N04 21,5 cm X 18</h5>
+                                <p class="card-text"><b>R$ 49,90</b></p>
+                                <a href="produtos/Adubo.html" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="imgs/p5.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Vaso de Planta Holambra NP 15 Preto</h5>
+                                <p class="card-text"><b>R$ 5,90</b></p>
+                                <a href="produtos/Adubo.html" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="imgs/p7.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Sementes de Alecrim Rosmarinho 30mg </h5>
+                                <p class="card-text"><b>R$ 3,90</b></p>
+                                <a href="produtos/Adubo.html" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="imgs/p6.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Sementes de Alecrim Rosmarinho 30mg - Topseed Linha Tradicional
+                                </h5>
+                                <p class="card-text"><b>R$ 3,90</b></p>
+                                <a href="produtos/Adubo.html" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="imgs/p8.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Sementes de Erva-dos-Gatos (Catnip) </h5>
+                                <p class="card-text"><b>R$ 4,20</b></p>
+                                <a href="produtos/Adubo.html" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Cards de anuncio-->
+            <div class="col-sm-3">
+
+                <div class="col">
+                    <div class="card">
+                        <img src="https://fatecjahu.edu.br/wp-content/uploads/2025/03/fotosite3-300x300.png"
+                            class="card-img-top" alt="imagem fatecjahu">
+                        <div class="card-body">
+                            <p class="card-text">Fatec Jahu realiza III Congresso de Tecnologia</p>
+                            <a href="https://fatecjahu.edu.br/fatec-jahu-realiza-iii-congresso-de-tecnologia/"
+                                class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <img src="https://fatecjahu.edu.br/wp-content/uploads/2025/11/Inscricoes-2-300x169.png"
+                            class="card-img-top" alt="imagem fatecjahu">
+                        <div class="card-body">
+
+                            <p class="card-text">Inscrições para o Vestibular das Fatecs são prorrogadas até 14 de
+                                novembro!</p>
+                            <a href="https://fatecjahu.edu.br/inscricoes-para-o-vestibular-das-fatecs-sao-prorrogadas-ate-14-de-novembro/"
+                                class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="container">
+
+        <div class="col-sm-9 ">
+
+            
+        </div>
+
+        <div class="col-sm-3">
+
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+    
+
+        </div>
+
+    </div>
+
+   
+
+
+
+    <footer style="background-color: rgb(231, 224, 224);">
+
+        <div class="col-sm-12 justify-content-center">
+
+            <h3 style="text-align: center;">Site desenvolvido Por Rafael Henque Biliasi</h3>
+            <div class="row">
+                <h3 style="text-align: center;">rafael.biliasi@fatec.sp.gov.br</h2>
+            </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
